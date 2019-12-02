@@ -41,9 +41,8 @@ func main() {
 	sumOfFuel := 0
 	for scanner.Scan() {
 		mass, _ := strconv.Atoi(scanner.Text())
-		f := fuel(mass)
 		sumOfFuel += fuelSum(mass)
-		fuelCounter += f
+		fuelCounter += fuel(mass)
 	}
 
 
