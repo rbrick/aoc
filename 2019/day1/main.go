@@ -45,7 +45,6 @@ func main() {
 		fuelCounter += fuel(mass)
 	}
 
-
 	fmt.Println("fuel count:", fuelCounter)
 	fmt.Println("sum of fuel:", sumOfFuel)
 }
